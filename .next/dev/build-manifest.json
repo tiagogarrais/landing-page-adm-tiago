@@ -1,0 +1,48 @@
+{
+  "pages": {
+    "/": [
+      "static/chunks/791c7_next_dist_compiled_76966997._.js",
+      "static/chunks/791c7_next_dist_shared_lib_c69b39e2._.js",
+      "static/chunks/791c7_next_dist_client_f0b0de4f._.js",
+      "static/chunks/791c7_next_dist_69009797._.js",
+      "static/chunks/791c7_next_head_8030d37a.js",
+      "static/chunks/791c7_react-dom_6cb8afef._.js",
+      "static/chunks/791c7_bc03dfd3._.js",
+      "static/chunks/[root-of-the-server]__56ab3f35._.js",
+      "static/chunks/Documentos_Github_landing-page-adm-tiago_pages_index_2da965e7._.js",
+      "static/chunks/turbopack-Documentos_Github_landing-page-adm-tiago_pages_index_8fe76993._.js"
+    ],
+    "/_app": [
+      "static/chunks/791c7_next_dist_compiled_76966997._.js",
+      "static/chunks/791c7_next_dist_shared_lib_a6946ab9._.js",
+      "static/chunks/791c7_next_dist_client_f0b0de4f._.js",
+      "static/chunks/791c7_next_dist_69009797._.js",
+      "static/chunks/791c7_react-dom_6cb8afef._.js",
+      "static/chunks/791c7_bc03dfd3._.js",
+      "static/chunks/[root-of-the-server]__e7d08959._.js",
+      "static/chunks/Documentos_Github_landing-page-adm-tiago_styles_globals_2eaa77d4.css",
+      "static/chunks/Documentos_Github_landing-page-adm-tiago_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Documentos_Github_landing-page-adm-tiago_pages__app_7b627d70._.js"
+    ],
+    "/_error": [
+      "static/chunks/791c7_next_dist_compiled_76966997._.js",
+      "static/chunks/791c7_next_dist_shared_lib_c69b39e2._.js",
+      "static/chunks/791c7_next_dist_client_f0b0de4f._.js",
+      "static/chunks/791c7_next_dist_fab07b3d._.js",
+      "static/chunks/791c7_next_error_0074e0d7.js",
+      "static/chunks/[next]_entry_page-loader_ts_a7febec3._.js",
+      "static/chunks/791c7_react-dom_6cb8afef._.js",
+      "static/chunks/791c7_90e5eee2._.js",
+      "static/chunks/[root-of-the-server]__9344ded4._.js",
+      "static/chunks/Documentos_Github_landing-page-adm-tiago_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Documentos_Github_landing-page-adm-tiago_pages__error_7f1755b4._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": []
+}

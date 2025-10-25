@@ -1,0 +1,116 @@
+[00:00:01.615] Server  LOG      ✓ Ready in 1043ms
+[00:03:06.629] Server  LOG      ✓ Compiled in 16ms
+[00:03:12.720] Server  LOG      ✓ Compiled in 7ms
+[00:04:48.090] Server  LOG      ✓ Compiled in 19ms
+[00:04:48.246] Browser LOG     Refreshing page data due to server-side change
+[00:05:08.208] Server  LOG      ✓ Compiled in 7ms
+[00:05:08.277] Browser LOG     Refreshing page data due to server-side change
+[00:05:54.145] Server  LOG      ✓ Compiled in 7ms
+[00:07:37.004] Server  LOG      ✓ Compiled in 16ms
+[00:07:37.114] Browser ERROR   ./Documentos/Github/landing-page-adm-tiago/components/Footer.js:5:3
+Parsing ecmascript source code failed
+  3 |     <footer>
+  4 |       export default function Footer() {
+> 5 |   return (
+    |   ^^^^^^
+  6 |     <footer>
+  7 |       <p>© 2025 — Adm. Tiago das Graças Arrais, CRA/CE 11660, Administrador & Solucionador de Problemas de Gestão</p>
+  8 |     </footer>
+
+Expected '</', got 'return'
+
+Import traces:
+  Browser:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+
+  SSR:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+[00:07:37.300] Browser ERROR   ./Documentos/Github/landing-page-adm-tiago/components/Footer.js:5:3
+Parsing ecmascript source code failed
+  3 |     <footer>
+  4 |       export default function Footer() {
+> 5 |   return (
+    |   ^^^^^^
+  6 |     <footer>
+  7 |       <p>© 2025 — Adm. Tiago das Graças Arrais, CRA/CE 11660, Administrador & Solucionador de Problemas de Gestão</p>
+  8 |     </footer>
+
+Expected '</', got 'return'
+
+Import traces:
+  Browser:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+
+  SSR:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+[00:07:37.496] Browser ERROR   ./Documentos/Github/landing-page-adm-tiago/components/Footer.js:5:3
+Parsing ecmascript source code failed
+  3 |     <footer>
+  4 |       export default function Footer() {
+> 5 |   return (
+    |   ^^^^^^
+  6 |     <footer>
+  7 |       <p>© 2025 — Adm. Tiago das Graças Arrais, CRA/CE 11660, Administrador & Solucionador de Problemas de Gestão</p>
+  8 |     </footer>
+
+Expected '</', got 'return'
+
+Import traces:
+  Browser:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+
+  SSR:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+[00:07:49.942] Browser ERROR   ./Documentos/Github/landing-page-adm-tiago/components/Footer.js:8:5
+Parsing ecmascript source code failed
+   6 |   );
+   7 | }
+>  8 |     </footer>
+     |     ^
+   9 |   );
+  10 | }
+  11 |
+
+Expression expected
+
+Import traces:
+  Browser:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+
+  SSR:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+[00:07:49.942] Browser ERROR   ./Documentos/Github/landing-page-adm-tiago/components/Footer.js:8:6
+Parsing ecmascript source code failed
+   6 |   );
+   7 | }
+>  8 |     </footer>
+     |      ^^^^^^^^
+   9 |   );
+  10 | }
+  11 |
+
+Unterminated regexp literal
+
+Import traces:
+  Browser:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+
+  SSR:
+    ./Documentos/Github/landing-page-adm-tiago/components/Footer.js
+    ./Documentos/Github/landing-page-adm-tiago/pages/index.js
+[00:08:01.609] Server  LOG      ✓ Compiled in 11ms
+[00:09:02.869] Server  LOG      ✓ Compiled in 13ms
+[00:10:03.200] Server  LOG      ✓ Compiled in 7ms
+[00:11:17.813] Server  LOG      ✓ Compiled in 9ms
+[00:11:17.942] Server  LOG      ✓ Compiled in 6ms
+[00:13:03.865] Server  LOG      ✓ Compiled in 6ms
+[00:13:17.449] Server  LOG      ✓ Compiled in 8ms

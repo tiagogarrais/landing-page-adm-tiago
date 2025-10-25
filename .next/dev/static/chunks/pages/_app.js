@@ -1,0 +1,12 @@
+__turbopack_load_page_chunks__("/_app", [
+  "static/chunks/791c7_next_dist_compiled_76966997._.js",
+  "static/chunks/791c7_next_dist_shared_lib_a6946ab9._.js",
+  "static/chunks/791c7_next_dist_client_f0b0de4f._.js",
+  "static/chunks/791c7_next_dist_69009797._.js",
+  "static/chunks/791c7_react-dom_6cb8afef._.js",
+  "static/chunks/791c7_bc03dfd3._.js",
+  "static/chunks/[root-of-the-server]__e7d08959._.js",
+  "static/chunks/Documentos_Github_landing-page-adm-tiago_styles_globals_2eaa77d4.css",
+  "static/chunks/Documentos_Github_landing-page-adm-tiago_pages__app_2da965e7._.js",
+  "static/chunks/turbopack-Documentos_Github_landing-page-adm-tiago_pages__app_7b627d70._.js"
+])

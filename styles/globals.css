@@ -1,0 +1,369 @@
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f9fb;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #2c3e50;
+  margin-bottom: 0.8rem;
+}
+
+.subheadline {
+  font-size: 1.2rem;
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+/* Seção principal */
+.hero {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  color: #444;
+}
+
+.highlight {
+  background-color: #eef7ff;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #1a73e8;
+}
+
+/* Badges de valor */
+.value-badges {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+  color: #27ae60;
+  font-weight: 600;
+}
+
+/* Case de sucesso */
+.case {
+  background: #f0f9ff;
+  border-left: 4px solid #1a73e8;
+  padding: 1.2rem;
+  margin: 1.8rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.case h3 {
+  color: #1a73e8;
+  margin-bottom: 0.6rem;
+}
+
+.case ul {
+  padding-left: 1.2rem;
+  margin-top: 0.6rem;
+}
+
+.case li {
+  margin-bottom: 0.3rem;
+}
+
+/* Carrossel de Casos */
+.cases-carousel {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin: 2.5rem 0;
+}
+
+.cases-carousel .carousel {
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.cases-carousel h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  color: #2c3e50;
+}
+
+.cases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cases-carousel .case {
+  width: 100%;
+  margin: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Carrossel */
+.carousel {
+  position: relative;
+  width: 100%;
+  margin: 2.5rem 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.02);
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.2s;
+}
+
+.carousel-btn:hover {
+  background: white;
+}
+
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+
+/* Depoimentos */
+.testimonials {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin: 2.5rem 0;
+}
+
+.testimonials h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  color: #2c3e50;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.testimonial {
+  padding: 1.2rem;
+  border-left: 4px solid #1a73e8;
+  background: #fafcff;
+  border-radius: 8px;
+  position: relative;
+}
+
+.testimonial::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 3rem;
+  color: #eef7ff;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 0.8rem;
+  color: #222;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: #1a73e8;
+}
+
+.testimonial-role {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Formulário */
+.form-section {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin: 2.5rem 0;
+}
+
+.form-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #1a73e8;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #1a73e8;
+  color: white;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #0d5bb8;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #777;
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .container {
+    padding: 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  .subheadline {
+    font-size: 1.05rem;
+  }
+
+  .hero,
+  .testimonials,
+  .form-section {
+    padding: 1.8rem;
+  }
+
+  .hero p,
+  .testimonial p {
+    font-size: 1rem;
+  }
+
+  .carousel-item img {
+    max-width: 280px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
